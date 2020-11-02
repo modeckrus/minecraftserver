@@ -1,0 +1,545 @@
+[17:55:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:55:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[17:55:07] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_272, running on Linux:amd64:5.4.0-52-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[17:55:07] [main/INFO] [FML]: Searching /home/modeck/Documents/minecraft/server/server/./mods for mods
+[17:55:07] [main/INFO] [FML]: Searching /home/modeck/Documents/minecraft/server/server/./mods/1.12.2 for mods
+[17:55:07] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from betterfps-1.4.8.jar
+[17:55:07] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in gregtech-1.12.2-1.10.4.574.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:07] [main/WARN] [FML]: The coremod GTCELoadingPlugin (gregtech.common.asm.GTCELoadingPlugin) is not signed!
+[17:55:07] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:07] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:55:07] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros-Minimap-Mod-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:07] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[17:55:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:08] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:55:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:08] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[17:55:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:55:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:09] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:55:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:55:09] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class net.minecraft.server.management.PlayerList
+[17:55:09] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class net.minecraft.entity.player.EntityPlayer
+[17:55:09] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[17:55:09] [main/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[17:55:10] [main/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[17:55:10] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[17:55:10] [main/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[17:55:10] [main/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[17:55:12] [main/INFO] [BetterFps]: Patching net.minecraft.server.dedicated.DedicatedServer... (nz)
+[17:55:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[17:55:12] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[17:55:12] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:55:12] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[17:55:13] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[17:55:13] [Server thread/INFO] [FML]: Searching /home/modeck/Documents/minecraft/server/server/./mods for mods
+[17:55:13] [Server thread/INFO] [FML]: Searching /home/modeck/Documents/minecraft/server/server/./mods/1.12.2 for mods
+[17:55:14] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[17:55:14] [Server thread/WARN] [FML]: Mod gregtech is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.10.4.574
+[17:55:14] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[17:55:15] [Server thread/INFO] [FML]: Disabling mod thaumicjei it is client side only.
+[17:55:15] [Server thread/INFO] [FML]: Forge Mod Loader has identified 42 mods to load
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for armoryexpansion-conarm: assets/armoryexpansion-conarm/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for armoryexpansion-custommaterials: assets/armoryexpansion-custommaterials/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for armoryexpansion-iceandfire: assets/armoryexpansion-iceandfire/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for armoryexpansion-matteroverdrive: assets/armoryexpansion-matteroverdrive/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftlib: assets/buildcraftlib/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for redstoneflux: assets/redstoneflux/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for roughmobs: assets/roughmobs/lang/en_us.lang
+[17:55:15] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
+[17:55:15] [Server thread/INFO] [FML]: FML has found a non-mod file MathParser.org-mXparser-4.0.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[17:55:15] [Server thread/INFO] [FML]: FML has found a non-mod file thaumicjei-1.12.2-1.6.0-27.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[17:55:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, advanced_solar_panels, armoryexpansion, armoryexpansion-conarm, armoryexpansion-custommaterials, armoryexpansion-iceandfire, armoryexpansion-matteroverdrive, backpack, baubles, brandonscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, conarm, draconicevolution, gregtech, ic2, inventorytweaks, ironchest, jei, mantle, nei, redstoneflux, roughmobs, thaumcraft, thaumictinkerer, tconstruct, ebwizardry, xaerominimap, structurize, minecolonies] at CLIENT
+[17:55:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, advanced_solar_panels, armoryexpansion, armoryexpansion-conarm, armoryexpansion-custommaterials, armoryexpansion-iceandfire, armoryexpansion-matteroverdrive, backpack, baubles, brandonscore, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, codechickenlib, conarm, draconicevolution, gregtech, ic2, inventorytweaks, ironchest, jei, mantle, nei, redstoneflux, roughmobs, thaumcraft, thaumictinkerer, tconstruct, ebwizardry, xaerominimap, structurize, minecolonies] at SERVER
+[17:55:16] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class net.minecraft.world.chunk.Chunk
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[17:55:18] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[17:55:18] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[17:55:19] [Server thread/ERROR] [FML]: The mod backpack is expecting signature @FINGERPRINT@ for source Backpacks-Mod-1.12.2.jar, however there is no signature matching that description
+[17:55:19] [Server thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source redstoneflux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[17:55:19] [Server thread/INFO] [brandonscore]: Brandon's Core online! Waiting for Draconic Evolution to join the party....
+[17:55:19] [Server thread/INFO] [draconicevolution]: Draconic Evolution online!
+[17:55:19] [Server thread/INFO] [brandonscore]: Hay! There you are! Now lets destroy some worlds!!
+[17:55:19] [Server thread/INFO] [draconicevolution]: Sounds like fun! Lets get to it!
+[17:55:19] [Server thread/INFO] [draconicevolution]: Hello Minecraft!!!
+[17:55:21] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:55:22] [Server thread/INFO] [FML]: Found 1433 ObjectHolder annotations
+[17:55:22] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:55:22] [Server thread/INFO] [FML]: Found 2 ItemStackHolder annotations
+[17:55:22] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:55:22] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[17:55:24] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: OUTDATED Target: 7.99.24.4
+[17:55:24] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[17:55:25] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[17:55:25] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[17:55:25] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: OUTDATED Target: 7.99.24.4
+[17:55:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `molecular_transformer`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_generator`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `advanced_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `hybrid_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `ultimate_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:25] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `advanced_solar_panels` for name `quantum_solar_panel`, expected `ic2`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:26] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[17:55:26] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[17:55:26] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: OUTDATED Target: 7.99.24.2
+[17:55:26] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+[17:55:26] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Found status: BETA Target: null
+[17:55:30] [Server thread/INFO] [GTCETransformer]: Patched method applyArmor(Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/NonNullList;Lnet/minecraft/util/DamageSource;D)F in net/minecraftforge/common/ISpecialArmor$ArmorProperties successfully
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 328 out of 328 recipes for shaped recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 73 out of 73 recipes for shapeless recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 74 out of 74 recipes for macerator recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 9 out of 9 recipes for metal former extruding recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[17:55:32] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[17:55:34] [Server thread/INFO] [advanced_solar_panels]: Loading ASP Config from /home/modeck/Documents/minecraft/server/server/config/advanced_solar_panels.cfg
+[17:55:34] [Server thread/INFO] [advanced_solar_panels]: Loading MT Recipes from /home/modeck/Documents/minecraft/server/server/config/advanced_solar_panels_MTRecipes.cfg
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading config from local JSON file
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading config from source
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all materials from local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all materials from source
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all material traits from local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all material traits from source
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all ore dictionary entries from local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all ore dictionary entries from source
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all alloys from local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done loading all alloys from source
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done saving config to local JSON file
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done saving all materials to local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done saving all material traits to local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done saving all ore dictionary entries to local JSON files
+[17:55:35] [Server thread/INFO] [armoryexpansion-custommaterials]: Done saving all alloys to local JSON files
+[17:55:35] [Server thread/INFO] [brandonscore]: Found mod feature container for mod: draconicevolution
+[17:55:35] [Server thread/INFO] [brandonscore]: Found mod config container for mod: draconicevolution
+[17:55:35] [Server thread/INFO] [brandonscore]: Found mod config container for mod: brandonscore
+[17:55:35] [Server thread/INFO] [brandonscore]: Found mod config container for mod: draconicevolution
+[17:55:35] [Server thread/INFO] [brandonscore]: Loading mod config for: draconicevolution
+[17:55:36] [Server thread/INFO] [brandonscore]: Loading mod config for: brandonscore
+[17:55:36] [Server thread/WARN] [brandonscore]: No features were detected for mod: brandonscore. This maybe an issue or maybe this mod just does not have any items or blocks.
+[17:55:36] [Server thread/INFO] [BuildCraft]: 
+[17:55:36] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.24.1
+[17:55:36] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[17:55:36] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[17:55:36] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[17:55:36] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x
+[17:55:36] [Server thread/INFO] [BuildCraft]:   Commit a5b4376b7fab67d85fe61de1a97dcc0ab3df233f
+[17:55:36] [Server thread/INFO] [BuildCraft]:     Fix #4399 - a critical dedicated server crash whenever items moved through pipes with a player watching.
+[17:55:36] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[17:55:36] [Server thread/INFO] [BuildCraft]: 
+[17:55:36] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - lib
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - core
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - builders
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - energy
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - factory
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - robotics
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - silicon
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - transport
+[17:55:36] [Server thread/INFO] [BuildCraft]:   - compat
+[17:55:36] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[17:55:36] [Server thread/INFO] [BuildCraft]: 
+[17:55:37] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[17:55:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:55:38] [Server thread/INFO] [BuildCraft]: 
+[17:55:38] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.24.1
+[17:55:38] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[17:55:38] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[17:55:38] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[17:55:38] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x
+[17:55:38] [Server thread/INFO] [BuildCraft]:   Commit 9d41eee348dc4edac52da8941c1e6a07c470f346
+[17:55:38] [Server thread/INFO] [BuildCraft]:     Fix a critical dedicated server crash whenever items moved through pipes with a player watching.
+[17:55:38] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[17:55:38] [Server thread/INFO] [BuildCraft]: 
+[17:55:38] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[17:55:38] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[17:55:38] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[17:55:38] [Server thread/INFO] [BuildCraft]: [compat]   x crafttweaker (It cannot load)
+[17:55:39] [Server thread/INFO] [brandonscore]: Registering features for mod: draconicevolution
+[17:55:39] [Server thread/INFO] [draconicevolution]: Finished PreInitialization
+[17:55:40] [Server thread/INFO] [gregtech]: 0 annotated material handlers registered
+[17:55:40] [Server thread/INFO] [gregtech]: Freezing material registry...
+[17:55:41] [Server thread/INFO] [gregtech]: Registering MetaTileEntities
+[17:55:43] [Server thread/INFO] [ebwizardry]: Setting up main config
+[17:55:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ebwizardryarcaneworkbenchtileentity`, expected `ebwizardry`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ebwizardrypetrifiedstonetileentity`, expected `ebwizardry`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ebwizardrymagiclighttileentity`, expected `ebwizardry`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ebwizardrytimertileentity`, expected `ebwizardry`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ebwizardrytileentityplayersave`, expected `ebwizardry`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:43] [Server thread/INFO] [armoryexpansion-conarm]: Done loading config from local JSON file
+[17:55:43] [Server thread/INFO] [armoryexpansion-conarm]: Done loading config from source
+[17:55:43] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all materials from local JSON files
+[17:55:43] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all materials from source
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all material traits from local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all material traits from source
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all ore dictionary entries from local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all ore dictionary entries from source
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all alloys from local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all alloys from source
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done saving config to local JSON file
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all materials to local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all material traits to local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all ore dictionary entries to local JSON files
+[17:55:44] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all alloys to local JSON files
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:44] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/INFO] [gregtech]: Registering Blocks...
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:47] [Server thread/INFO] [FML]: Applying holder lookups
+[17:55:47] [Server thread/INFO] [FML]: Holder lookups applied
+[17:55:47] [Server thread/INFO] [Backpack]: Loading items...
+[17:55:47] [Server thread/INFO] [Backpack]: 15 item features loaded.
+[17:55:47] [Server thread/INFO] [gregtech]: Registering Items...
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading config from local JSON file
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading config from source
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all materials from local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all materials from source
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all material traits from local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all material traits from source
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all ore dictionary entries from local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all ore dictionary entries from source
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all alloys from local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done loading all alloys from source
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done saving config to local JSON file
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all materials to local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all material traits to local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all ore dictionary entries to local JSON files
+[17:55:48] [Server thread/INFO] [armoryexpansion-conarm]: Done saving all alloys to local JSON files
+[17:55:48] [Server thread/INFO] [FML]: Applying holder lookups
+[17:55:48] [Server thread/INFO] [FML]: Holder lookups applied
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archery`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baker`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `barracks`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `barrackstower`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blacksmith`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `builder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chickenherder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `combatacademy`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `composter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cook`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cowboy`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `crusher`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `deliveryman`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `farmer`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fisherman`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `guardtower`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `home`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `library`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lumberjack`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `miner`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sawmill`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:48] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shepherd`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sifter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `smeltery`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stonemason`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stonesmeltery`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `swingherder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `townhall`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `warehouse`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `postbox`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `florist`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enchanter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `knight`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ranger`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `placeholder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `builder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `deliveryman`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `miner`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lumberjack`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `farmer`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fisherman`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baker`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cook`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shepherd`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cowboy`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `swineherder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chickenherder`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `smelter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ranger`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `knight`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `composter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `student`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `archertraining`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `combattraining`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sawmill`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blacksmith`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stonemason`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stonesmeltery`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `crusher`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sifter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `florist`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enchanter`, expected `minecolonies`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:50] [Server thread/INFO] [FML]: Applying holder lookups
+[17:55:50] [Server thread/INFO] [FML]: Holder lookups applied
+[17:55:50] [Server thread/INFO] [FML]: Applying holder lookups
+[17:55:50] [Server thread/INFO] [FML]: Holder lookups applied
+[17:55:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:55:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:55:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[17:55:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[17:55:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[17:55:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[17:55:50] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[17:55:51] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:55:51] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[17:55:51] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:55:51] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:55:53] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:53] [Server thread/INFO] [Backpack]: Loading recipes...
+[17:55:53] [Server thread/INFO] [Backpack]: 15 recipe features loaded.
+[17:55:53] [Server thread/INFO] [gregtech]: Registering ore dictionary...
+[17:55:54] [Server thread/INFO] [gregtech]: Registering OreDict entries.
+[17:55:54] [Server thread/INFO] [gregtech]: Registering recipes...
+[17:55:54] [Server thread/INFO] [gregtech]: Modifying vanilla recipes according to config. DON'T BE SCARED OF FML's WARNING ABOUT DANGEROUS ALTERNATIVE PREFIX.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `heavy_weighted_pressure_plate`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_weighted_pressure_plate`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_door`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_trapdoor`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cauldron`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hopper`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_bars`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bowl`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paper`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sugar`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[17:55:54] [Server thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
+[17:55:54] [Server thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[17:55:55] [Server thread/INFO] [draconicevolution]: Loading Default Recipes...
+[17:55:55] [Server thread/INFO] [gregtech]: Running early material handlers...
+[17:55:57] [Server thread/INFO] [gregtech]: Running late material handlers...
+[17:55:57] [Server thread/INFO] [FML]: Applying holder lookups
+[17:55:57] [Server thread/INFO] [FML]: Holder lookups applied
+[17:55:58] [Server thread/INFO] [advanced_solar_panels]: Loading Molecular Transformer recipes from file
+[17:55:58] [Server thread/INFO] [advanced_solar_panels]: Load complete, successfully loaded 22 out of 22.
+[17:55:58] [Server thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xtile.tconstruct.ore@0 = 1xitem.tconstruct.ingots@0
+[17:55:59] [Server thread/INFO] [draconicevolution]: Finished Initialization
+[17:55:59] [Server thread/INFO] [gregtech]: Initializing ore generation registry...
+[17:55:59] [Server thread/INFO] [gregtech]: Reloading ore generation files from config...
+[17:55:59] [Server thread/INFO] [gregtech]: Loaded 53 worldgen definitions
+[17:56:00] [Server thread/INFO] [gregtech]: Registering cover behaviors...
+[17:56:00] [Server thread/INFO] [gregtech]: Registering dungeon loot...
+[17:56:00] [Server thread/INFO] [ebwizardry]: Setting up spells config for 140 spells
+[17:56:00] [Server thread/INFO] [ebwizardry]: Setting up resistances config
+[17:56:00] [Server thread/INFO] [STDOUT]: [xaero.common.server.XaeroMinimapServer:load:32]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17:56:00] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:56:00] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:56:00] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[17:56:01] [Server thread/INFO] [ic2.General]: ic2 version 2.8.109-ex112 loaded.
+[17:56:01] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[17:56:06] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 5246.634878 ms
+[17:56:07] [Server thread/INFO] [draconicevolution]: Finished PostInitialization
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 1 research entries from thaumictinkerer:research/baubles
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 3 research entries from thaumictinkerer:research/misc
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 1 research entries from thaumictinkerer:research/machines
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
+[17:56:15] [Server thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
+[17:56:15] [Server thread/INFO] [STDOUT]: [xaero.common.server.XaeroMinimapServer:loadLater:38]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17:56:15] [Server thread/WARN] [minecolonies.requestsystem]: Updated logging config. RS Debug logging enabled: false
+[17:56:16] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 42 mods
+[17:56:16] [Server thread/INFO] [structurize]: Load huts or decorations from jar
+[17:56:16] [Server thread/WARN] [structurize]: loadSchematicsForPrefix: Could not load schematics from /assets/structurize/schematics
+java.nio.file.NoSuchFileException: /assets/structurize/schematics
+	at com.sun.nio.zipfs.ZipPath.getAttributes(ZipPath.java:666) ~[zipfs.jar:1.8.0_272]
+	at com.sun.nio.zipfs.ZipFileSystemProvider.readAttributes(ZipFileSystemProvider.java:294) ~[zipfs.jar:1.8.0_272]
+	at java.nio.file.Files.readAttributes(Files.java:1737) ~[?:1.8.0_272]
+	at java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219) ~[?:1.8.0_272]
+	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276) ~[?:1.8.0_272]
+	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322) ~[?:1.8.0_272]
+	at java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:72) ~[?:1.8.0_272]
+	at java.nio.file.Files.walk(Files.java:3574) ~[?:1.8.0_272]
+	at java.nio.file.Files.walk(Files.java:3625) ~[?:1.8.0_272]
+	at com.ldtteam.structurize.management.Structures.loadSchematicsForPrefix(Structures.java:274) [Structures.class:?]
+	at com.ldtteam.structurize.management.Structures.loadStyleMapsJar(Structures.java:213) [Structures.class:?]
+	at com.ldtteam.structurize.management.Structures.loadStyleMaps(Structures.java:152) [Structures.class:?]
+	at com.ldtteam.structurize.management.Structures.init(Structures.java:139) [Structures.class:?]
+	at com.ldtteam.structurize.Structurize.serverAboutLoad(Structurize.java:160) [Structurize.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_272]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_272]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_272]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_272]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_272]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_272]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_272]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.serverAboutToStart(Loader.java:859) [Loader.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:292) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:268) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_272]
+[17:56:16] [Server thread/INFO] [structurize]: Load huts or decorations from jar
+[17:56:20] [Server thread/INFO] [structurize]: Load additionnal huts or decorations from ./structurize/schematics
+[17:56:20] [Server thread/INFO] [structurize]: Load cached schematic from ./structurize/cache
+[17:56:20] [Server thread/INFO] [structurize]: Load cached schematic from ./structurize/cache
+[17:56:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[17:56:20] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:56:22] [Server thread/INFO] [FML]: Applying holder lookups
+[17:56:22] [Server thread/INFO] [FML]: Holder lookups applied
+[17:56:23] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5c7ac3d5)
+[17:56:23] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 610 advancements
+[17:56:23] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 0
+[17:56:23] [Server thread/INFO] [minecolonies]: Server UUID b6530cc9-9b49-407e-b75b-af677739193c
+[17:56:23] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c7ac3d5)
+[17:56:23] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world -1
+[17:56:24] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c7ac3d5)
+[17:56:24] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 1
+[17:56:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:56:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[17:56:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%
+[17:56:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 56%
+[17:56:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (12.230s)! For help, type "help" or "?"
+[17:56:30] [Thread-7/INFO] [THAUMCRAFT]: Starting aura thread for dim 0
+[17:56:30] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/229876-betterfps.json
+[17:56:30] [Server thread/INFO] [minecolonies]: Finished discovering saplings
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering Ores
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering oreBlocks
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering compostables
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering compostables
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering lucky oreBlocks
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished initiating sifter config
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering food
+[17:56:31] [Server thread/INFO] [minecolonies]: Finished discovering fuel
+[17:56:31] [Server thread/WARN] [minecolonies]: Enchantment: minecraft:sweeping_edge doesn't exist!
+[17:56:31] [Server thread/WARN] [minecolonies]: Enchantment: minecraft:sweeping_edge doesn't exist!
+[17:56:31] [Server thread/WARN] [minecolonies]: Enchantment: minecraft:sweeping_edge doesn't exist!
+[17:56:31] [Server thread/WARN] [minecolonies]: Enchantment: minecraft:sweeping_edge doesn't exist!
+[17:56:31] [Server thread/WARN] [minecolonies]: Enchantment: minecraft:sweeping_edge doesn't exist!
+[17:56:31] [Server thread/WARN] [minecolonies]: Done with enchantments
+[17:56:32] [Thread-8/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
+[17:56:32] [Thread-9/INFO] [THAUMCRAFT]: Starting aura thread for dim 1
+[17:56:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
+[17:56:32] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:56:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 1
+[17:56:32] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:56:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2497ms behind, skipping 49 tick(s)
+[17:56:35] [Thread-9/INFO] [THAUMCRAFT]: Stopping aura thread for dim 1
+[17:56:35] [Thread-8/INFO] [THAUMCRAFT]: Stopping aura thread for dim -1
+[17:56:37] [Thread-7/WARN] [THAUMCRAFT]: AURAS TAKING 18 ms LONGER THAN NORMAL IN DIM 0
+[17:56:50] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[17:56:50] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 44 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,buildcraftlib@7.99.24.1,baubles@1.5.2,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.1,buildcraftenergy@7.99.24.1,ebwizardry@4.1.4,jei@4.16.1.302,buildcrafttransport@7.99.24.1,draconicevolution@2.3.27,nei@2.4.3,ic2@2.8.109-ex112,mantle@1.12-1.3.3.55,armoryexpansion-matteroverdrive@1.4.2,buildcraftbuilders@7.99.24.1,thaumicjei@1.6.0,xaerominimap@20.23.0,mcp@9.42,buildcraftfactory@7.99.24.1,advanced_solar_panels@4.3.0,FML@8.0.99.99,conarm@1.2.5.9,structurize@1.12.2-0.10.277-RELEASE,inventorytweaks@1.63+release.109.220f184,roughmobs@2.0.0,minecolonies@1.12.2-0.11.811-BETA,buildcraftcompat@7.99.24.1,xaerominimap_core@1.12.2-1.0,armoryexpansion-iceandfire@1.4.2,armoryexpansion-custommaterials@1.4.2,tlauncher_custom_cape_skin@1.4,armoryexpansion@1.4.2,thaumcraft@6.1.BETA26,forge@14.23.5.2854,backpack@3.0.2,codechickenlib@3.2.3.358,gregtech@1.10.4.574,brandonscore@2.4.19,thaumictinkerer@1.12.2-5.0-353c71c,buildcraftcore@7.99.24.1,buildcraftrobotics@7.99.24.1,ironchest@1.12.2-7.0.67.844,armoryexpansion-conarm@1.4.2
+[17:56:50] [Netty Epoll Server IO #2/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[17:56:54] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[17:56:54] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 44 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,buildcraftlib@7.99.24.1,baubles@1.5.2,redstoneflux@2.1.1,buildcraftsilicon@7.99.24.1,buildcraftenergy@7.99.24.1,ebwizardry@4.1.4,jei@4.16.1.302,buildcrafttransport@7.99.24.1,draconicevolution@2.3.27,nei@2.4.3,ic2@2.8.109-ex112,mantle@1.12-1.3.3.55,armoryexpansion-matteroverdrive@1.4.2,buildcraftbuilders@7.99.24.1,thaumicjei@1.6.0,xaerominimap@20.23.0,mcp@9.42,buildcraftfactory@7.99.24.1,advanced_solar_panels@4.3.0,FML@8.0.99.99,conarm@1.2.5.9,structurize@1.12.2-0.10.277-RELEASE,inventorytweaks@1.63+release.109.220f184,roughmobs@2.0.0,minecolonies@1.12.2-0.11.811-BETA,buildcraftcompat@7.99.24.1,xaerominimap_core@1.12.2-1.0,armoryexpansion-iceandfire@1.4.2,armoryexpansion-custommaterials@1.4.2,tlauncher_custom_cape_skin@1.4,armoryexpansion@1.4.2,thaumcraft@6.1.BETA26,forge@14.23.5.2854,backpack@3.0.2,codechickenlib@3.2.3.358,gregtech@1.10.4.574,brandonscore@2.4.19,thaumictinkerer@1.12.2-5.0-353c71c,buildcraftcore@7.99.24.1,buildcraftrobotics@7.99.24.1,ironchest@1.12.2-7.0.67.844,armoryexpansion-conarm@1.4.2
+[17:56:54] [Netty Epoll Server IO #3/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[17:56:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:56:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: modeck[/127.0.0.1:47838] logged in with entity id 273 at (-54.5, 64.0, 252.5)
+[17:56:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: modeck joined the game
+[17:56:55] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for modeck
+[17:56:55] [Server thread/INFO] [ebwizardry]: Synchronising config settings for modeck
+[17:56:56] [Server thread/INFO] [structurize]: New Server UUID 33d4a408-173e-4055-9a9c-d245c264af8b
+[17:57:01] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:57:01] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Ykrop4ik[/25.64.221.124:50419] logged in with entity id 274 at (-51.5, 65.0, 253.5)
+[17:57:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ykrop4ik joined the game
+[17:57:02] [Server thread/INFO] [ebwizardry]: Synchronising spell glyph data for Ykrop4ik
+[17:57:02] [Server thread/INFO] [ebwizardry]: Synchronising config settings for Ykrop4ik
+[17:57:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5583ms behind, skipping 111 tick(s)
+[17:57:23] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3029ms behind, skipping 60 tick(s)
+[17:58:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ykrop4ik has made the advancement [Stone Age]
+[17:59:16] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2044ms behind, skipping 40 tick(s)
+[17:59:20] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: modeck lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[17:59:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: modeck left the game
+[17:59:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ykrop4ik has made the advancement [Getting an Upgrade]
+[17:59:51] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3589ms behind, skipping 71 tick(s)
+[18:01:07] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Ykrop4ik lost connection: Disconnected
+[18:01:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ykrop4ik left the game
+[18:01:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:01:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:01:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:01:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[18:01:12] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[18:01:12] [Server thread/INFO] [FML]: Unloading dimension 0
+[18:01:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:01:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:01:12] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
